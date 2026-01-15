@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
 import { useRouter } from "next/navigation";
+import Image from "next/image";
 
 export default function Navigation() {
   const [isOpen, setIsOpen] = useState(false);
@@ -46,7 +47,7 @@ export default function Navigation() {
           onClick={handleLogoClick}
           className="text-xl font-bold tracking-tight cursor-pointer hover:text-accent transition-colors"
         >
-          <img src="/webnexa1.png" width={120} alt="" className="rounded-2xl" />
+          <Image src="/webnexa1.png" width={120} alt="" className="rounded-2xl" />
         </motion.div>
 
         <div className="hidden md:flex items-center gap-8">
