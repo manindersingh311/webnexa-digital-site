@@ -34,7 +34,7 @@ export default function Footer() {
             <h3 className="text-2xl font-bold mb-2">
               {" "}
               <Image
-                src="/webnexa1.png"
+                src="public/webnexa1.png"
                 width={220}
                 alt=""
                 className="rounded-2xl"

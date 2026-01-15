@@ -47,7 +47,12 @@ export default function Navigation() {
           onClick={handleLogoClick}
           className="text-xl font-bold tracking-tight cursor-pointer hover:text-accent transition-colors"
         >
-          <Image src="/webnexa1.png" width={120} alt="" className="rounded-2xl" />
+          <Image
+            src="public/webnexa1.png"
+            width={120}
+            alt=""
+            className="rounded-2xl"
+          />
         </motion.div>
 
         <div className="hidden md:flex items-center gap-8">
