@@ -48,9 +48,10 @@ export default function Navigation() {
           className="text-xl font-bold tracking-tight cursor-pointer hover:text-accent transition-colors"
         >
           <Image
-            src="public/webnexa1.png"
+            src="Webnexa.png"
             width={120}
-            alt=""
+            height={50}
+            alt="Webnexa logo"
             className="rounded-2xl"
           />
         </motion.div>

@@ -34,9 +34,10 @@ export default function Footer() {
             <h3 className="text-2xl font-bold mb-2">
               {" "}
               <Image
-                src="public/webnexa1.png"
+                src="Webnexa.png"
                 width={220}
-                alt=""
+                height={50}
+                alt="Webnexa logo"
                 className="rounded-2xl"
               />
             </h3>
